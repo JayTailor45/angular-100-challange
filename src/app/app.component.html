@@ -8,7 +8,10 @@
   </ul>
 </app-toolbar>
 <main>
-  <app-card iconClasses="fas fa-info-circle" title="Accordian" subTitle="Components">
+  <app-card iconClasses="fas fa-info-circle" title="Rating" subTitle="Components">
+    <app-star-rating body [rating]="3.75"></app-star-rating>
+  </app-card>
+  <app-card iconClasses="fas fa-info-circle" title="Progressbar" subTitle="Components">
     <app-progress-bar body [value]="progressValue"></app-progress-bar>
     <button footer (click)="progressValue = 80">Update</button>
   </app-card>
