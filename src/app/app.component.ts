@@ -7,6 +7,7 @@ import { AccordionItem } from './models/accordion.model';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  progressValue = 15;
   accordianItems: AccordionItem [] = [
     {
       title: 'Example 1',

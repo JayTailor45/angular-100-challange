@@ -9,10 +9,11 @@
 </app-toolbar>
 <main>
   <app-card iconClasses="fas fa-info-circle" title="Accordian" subTitle="Components">
-    <p body>
-      <app-accordion [items]="accordianItems">
-      </app-accordion>
-    </p>
+    <app-progress-bar body [value]="progressValue"></app-progress-bar>
+    <button footer (click)="progressValue = 80">Update</button>
+  </app-card>
+  <app-card iconClasses="fas fa-info-circle" title="Accordian" subTitle="Components">
+    <app-accordion body [items]="accordianItems"></app-accordion>
   </app-card>
   <app-card iconClasses="fas fa-info-circle" title="Card" subTitle="Components">
     <p body>Body Content</p>
