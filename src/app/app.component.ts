@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AccordionItem } from './models/accordion.model';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'ng100';
+  accordianItems: AccordionItem [] = [
+    {
+      title: 'Example 1',
+      content: 'Example 1 Content',
+      isExpanded: false
+    },
+    {
+      title: 'Example 2',
+      content: 'Example 2 Content',
+      isExpanded: false
+    }
+  ];
 }
