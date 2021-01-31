@@ -1,29 +1,13 @@
 <app-toolbar title="100 Angular Challenge">
   <ul>
-    <li>Components</li>
-    <li>Directives</li>
-    <li>Services</li>
-    <li>Pipes</li>
-    <li>Others</li>
+    <li routerLink="">Components</li>
+    <li routerLink="directives">Directives</li>
+    <li routerLink="services">Services</li>
+    <li routerLink="pipes">Pipes</li>
+    <li routerLink="">Others</li>
   </ul>
 </app-toolbar>
 <main>
-  <app-card iconClasses="fas fa-info-circle" title="Move To Top" subTitle="Components">
-    <p body>Scroll down to bottom of the page</p>
-  </app-card>
-  <app-card iconClasses="fas fa-info-circle" title="Rating" subTitle="Components">
-    <app-star-rating body [rating]="3.75"></app-star-rating>
-  </app-card>
-  <app-card iconClasses="fas fa-info-circle" title="Progressbar" subTitle="Components">
-    <app-progress-bar body [value]="progressValue"></app-progress-bar>
-    <button footer (click)="progressValue = 80">Update</button>
-  </app-card>
-  <app-card iconClasses="fas fa-info-circle" title="Accordian" subTitle="Components">
-    <app-accordion body [items]="accordianItems"></app-accordion>
-  </app-card>
-  <app-card iconClasses="fas fa-info-circle" title="Card" subTitle="Components">
-    <p body>Body Content</p>
-    <p footer>Footer Content</p>
-  </app-card>
+  <router-outlet></router-outlet>
   <app-top-of-page></app-top-of-page>
 </main>
