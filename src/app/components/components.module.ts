@@ -10,6 +10,7 @@ import { SharedComponentsModule } from '../shared-components/shared-components.m
 import { LoaderComponent } from './loader/loader.component';
 import { CreditCardInputComponent } from './credit-card-input/credit-card-input.component';
 import { FormsModule } from '@angular/forms';
+import { TwitterPostComponent } from './twitter-post/twitter-post.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { FormsModule } from '@angular/forms';
     StarRatingComponent,
     LoaderComponent,
     CreditCardInputComponent,
+    TwitterPostComponent,
   ],
   imports: [
     CommonModule,
