@@ -8,6 +8,8 @@ import { ProgressBarComponent } from './progress-bar/progress-bar.component';
 import { StarRatingComponent } from './star-rating/star-rating.component';
 import { SharedComponentsModule } from '../shared-components/shared-components.module';
 import { LoaderComponent } from './loader/loader.component';
+import { CreditCardInputComponent } from './credit-card-input/credit-card-input.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -16,11 +18,13 @@ import { LoaderComponent } from './loader/loader.component';
     ProgressBarComponent,
     StarRatingComponent,
     LoaderComponent,
+    CreditCardInputComponent,
   ],
   imports: [
     CommonModule,
     RouterModule.forChild(COMPONENTS_ROUTES),
     SharedComponentsModule,
+    FormsModule,
   ]
 })
 export class ComponentsModule { }

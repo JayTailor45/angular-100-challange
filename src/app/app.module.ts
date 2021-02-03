@@ -15,7 +15,7 @@ import { TopOfPageComponent } from './components/top-of-page/top-of-page.compone
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(APP_ROUTES)
+    RouterModule.forRoot(APP_ROUTES),
   ],
   providers: [],
   bootstrap: [AppComponent]
