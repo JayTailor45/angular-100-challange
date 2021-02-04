@@ -1,4 +1,14 @@
 <app-card iconClasses="fas fa-info-circle" title="Twitter Post" subTitle="Components">
+  <div body>
+    <app-modal [title]="'Modal Title'" #modal>
+      <p>Modal Content</p>
+    </app-modal>
+  </div>
+  <div footer>
+    <button (click)="modal.open()">Open Modal</button>
+  </div>
+</app-card>
+<app-card iconClasses="fas fa-info-circle" title="Twitter Post" subTitle="Components">
   <app-twitter-post body></app-twitter-post>
 </app-card>
 <app-card iconClasses="fas fa-info-circle" title="Credit Card Input" subTitle="Components">

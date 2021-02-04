@@ -11,6 +11,7 @@ import { LoaderComponent } from './loader/loader.component';
 import { CreditCardInputComponent } from './credit-card-input/credit-card-input.component';
 import { FormsModule } from '@angular/forms';
 import { TwitterPostComponent } from './twitter-post/twitter-post.component';
+import { ModalComponent } from './modal/modal.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { TwitterPostComponent } from './twitter-post/twitter-post.component';
     LoaderComponent,
     CreditCardInputComponent,
     TwitterPostComponent,
+    ModalComponent,
   ],
   imports: [
     CommonModule,
