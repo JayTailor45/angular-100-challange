@@ -12,6 +12,7 @@ import { CreditCardInputComponent } from './credit-card-input/credit-card-input.
 import { FormsModule } from '@angular/forms';
 import { TwitterPostComponent } from './twitter-post/twitter-post.component';
 import { ModalComponent } from './modal/modal.component';
+import { QuoteComponent } from './quote/quote/quote.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { ModalComponent } from './modal/modal.component';
     CreditCardInputComponent,
     TwitterPostComponent,
     ModalComponent,
+    QuoteComponent,
   ],
   imports: [
     CommonModule,
