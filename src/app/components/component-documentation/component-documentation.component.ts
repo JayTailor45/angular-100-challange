@@ -21,4 +21,8 @@ export class ComponentDocumentationComponent {
     }
   ];
   toggleValue = false;
+
+  doSearch(val: string): void {
+    console.log(val);
+  }
 }

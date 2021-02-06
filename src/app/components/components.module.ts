@@ -14,6 +14,7 @@ import { TwitterPostComponent } from './twitter-post/twitter-post.component';
 import { ModalComponent } from './modal/modal.component';
 import { QuoteComponent } from './quote/quote/quote.component';
 import { ToggleComponent } from './toggle/toggle.component';
+import { DebounceSearchComponent } from './debounce-search/debounce-search.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { ToggleComponent } from './toggle/toggle.component';
     ModalComponent,
     QuoteComponent,
     ToggleComponent,
+    DebounceSearchComponent,
   ],
   imports: [
     CommonModule,
