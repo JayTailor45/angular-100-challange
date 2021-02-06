@@ -20,4 +20,5 @@ export class ComponentDocumentationComponent {
       isExpanded: false
     }
   ];
+  toggleValue = false;
 }
