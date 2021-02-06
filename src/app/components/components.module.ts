@@ -13,7 +13,7 @@ import { FormsModule } from '@angular/forms';
 import { TwitterPostComponent } from './twitter-post/twitter-post.component';
 import { ModalComponent } from './modal/modal.component';
 import { QuoteComponent } from './quote/quote/quote.component';
-import { ToggleComponent } from './toggle/toggle/toggle.component';
+import { ToggleComponent } from './toggle/toggle.component';
 
 @NgModule({
   declarations: [
